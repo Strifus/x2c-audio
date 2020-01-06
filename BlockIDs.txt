@@ -1,0 +1,3 @@
+3800: SineWave
+3801: TriangleWave
+3802: RectangleWave

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN" "http://java.sun.com/products/javahelp/map_1_0.dtd">
+<map version="1.0">
+<mapID target="index" url="index.html"/>
+<mapID target="section_25b86f224be5994647a443592a2e9dbd" url="section_25b86f224be5994647a443592a2e9dbd.html"/>
+<mapID target="x2c_RectangleWave" url="x2c_RectangleWave.html"/>
+<mapID target="x2c_SineWave" url="x2c_SineWave.html"/>
+<mapID target="x2c_TriangleWave" url="x2c_TriangleWave.html"/>
+</map>
