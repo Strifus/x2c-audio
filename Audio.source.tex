@@ -1,0 +1,31 @@
+\documentclass[11pt,nenglish]{article} % use larger type; default would be 10pt
+\newcommand{\XtoCDoku}{1}\newcommand{\XcHomePath}{/media/Data/X2C_v1780}
+\usepackage{\XcHomePath/Documentation/General/Styles/generalDoc}
+\usepackage{\XcHomePath/Documentation/X2C.VersionInfo}
+
+%\usepackage{todonotes}
+
+\title{Audio\\Library Documentation\\\normalsize X2C v\VersionInfo}
+\author{LCM}
+\newcommand{\ExtendedBlockDocu}{}
+\begin{document}
+\selectlanguage{american}
+\maketitle
+\tableofcontents{}
+\newpage
+
+\IfFileExists{../../Library/Audio/Audio.tex}{\section{Audio}
+%\input{/media/Data/X2C_v1780/Library/Audio/Doc/SineWave.tex}
+%\input{../../Library/Audio/Doc/SineWave.tex}
+\graphicspath{{Doc/}} \renewcommand{\InputPath}{Doc/} \input{Doc/RectangleWave} \graphicspath{{.}} \renewcommand{\InputPath}{.} 
+\clearpage
+%\include{/media/Data/X2C\_v1780/Library/Audio/Doc/TriangleWave.tex} 
+%\input{../../Library/Audio/Doc/TriangleWave.tex}
+\graphicspath{{Doc/}} \renewcommand{\InputPath}{Doc/} \input{Doc/SineWave} \graphicspath{{.}} \renewcommand{\InputPath}{.} 
+\clearpage
+%\include{/media/Data/X2C\_v1780/Library/Audio/Doc/RectangleWave.tex}
+%\input{../../Library/Audio/Doc/RectangleWave.tex}
+\graphicspath{{Doc/}} \renewcommand{\InputPath}{Doc/} \input{Doc/TriangleWave} \graphicspath{{.}} \renewcommand{\InputPath}{.} 
+\clearpage
+}{}\end{document}
+\end

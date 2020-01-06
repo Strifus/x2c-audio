@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY a74e4b777ee9bdcf8f410c5e74a7680f1 SYSTEM "/media/Data/X2C_v1780/Library/Audio/Scilab/help/en_US/x2c_RectangleWave.xml">
+<!ENTITY ae7476d20b95f1b2f64618453769dc7f1 SYSTEM "/media/Data/X2C_v1780/Library/Audio/Scilab/help/en_US/x2c_SineWave.xml">
+<!ENTITY ac7f3281a3b5299a3446f8843941223d8 SYSTEM "/media/Data/X2C_v1780/Library/Audio/Scilab/help/en_US/x2c_TriangleWave.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='x2c_audio_library_manual'>
+    <title>X2C Audio Library</title>
+  </info>
+
+<part xml:id='section_25b86f224be5994647a443592a2e9dbd'>
+<title>Audio</title>
+&a74e4b777ee9bdcf8f410c5e74a7680f1;
+&ae7476d20b95f1b2f64618453769dc7f1;
+&ac7f3281a3b5299a3446f8843941223d8;
+</part>
+</book>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<toc version="1.0">
+<tocitem target="index" text="X2C Audio Library">
+<tocitem target="section_25b86f224be5994647a443592a2e9dbd" text="Audio">
+<tocitem target="x2c_RectangleWave" text="x2c_RectangleWave"/>
+<tocitem target="x2c_SineWave" text="x2c_SineWave"/>
+<tocitem target="x2c_TriangleWave" text="x2c_TriangleWave"/>
+</tocitem>
+</tocitem>
+</toc>

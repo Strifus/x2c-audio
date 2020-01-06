@@ -1,0 +1,103 @@
+\XtoCBlock{RectangleWave}
+\label{block:RectangleWave}
+\begin{figure}[H]\includegraphics{RectangleWave}\end{figure} 
+%\missingfigure{RectangleWave : RectangleWave.png} 
+
+\begin{XtoCtabular}{Outports}
+u & Rectangle wave output\tabularnewline
+\hline
+\end{XtoCtabular}
+
+\begin{XtoCtabular}{Mask Parameters}
+Amplitude & Amplitude of wave\tabularnewline
+\hline
+Frequency & Frequency in Hz\tabularnewline
+\hline
+Offset & Offset\tabularnewline
+\hline
+Duty & Duty Cycle in \%\tabularnewline
+\hline
+ts\_fact & Multiplication factor of base sampling time (in integer format)\tabularnewline
+\hline
+\end{XtoCtabular}
+
+\subsubsection*{Description:}
+Generation of a rectangular wave.
+
+% include optional documentation file
+\InputIfFileExists{\XcHomePath/Library/Audio/Doc/RectangleWave_Info.tex}{\vspace{1ex}}{}
+
+\subsubsection*{Implementations:}
+\begin{tabular}{l l}
+\textbf{FiP8} & 8 Bit Fixed Point Implementation\tabularnewline
+\textbf{FiP16} & 16 Bit Fixed Point Implementation\tabularnewline
+\textbf{FiP32} & 32 Bit Fixed Point Implementation\tabularnewline
+\textbf{Float32} & 32 Bit Floating Point Implementation\tabularnewline
+\textbf{Float64} & 64 Bit Floating Point Implementation\tabularnewline
+\end{tabular}
+
+\XtoCImplementation{FiP8}
+\nopagebreak[0]
+
+8 Bit Fixed Point Implementation
+
+\begin{XtoCtabular}{Outports Data Type}
+u & int8\tabularnewline
+\hline
+\end{XtoCtabular}
+
+\ifdefined \AddTestReports
+\InputIfFileExists{\XcHomePath/Library/Audio/Doc/Test-Results/Test_RectangleWave_FiP8.tex}{}{}
+\fi
+\XtoCImplementation{FiP16}
+\nopagebreak[0]
+
+16 Bit Fixed Point Implementation
+
+\begin{XtoCtabular}{Outports Data Type}
+u & int16\tabularnewline
+\hline
+\end{XtoCtabular}
+
+\ifdefined \AddTestReports
+\InputIfFileExists{\XcHomePath/Library/Audio/Doc/Test-Results/Test_RectangleWave_FiP16.tex}{}{}
+\fi
+\XtoCImplementation{FiP32}
+\nopagebreak[0]
+
+32 Bit Fixed Point Implementation
+
+\begin{XtoCtabular}{Outports Data Type}
+u & int32\tabularnewline
+\hline
+\end{XtoCtabular}
+
+\ifdefined \AddTestReports
+\InputIfFileExists{\XcHomePath/Library/Audio/Doc/Test-Results/Test_RectangleWave_FiP32.tex}{}{}
+\fi
+\XtoCImplementation{Float32}
+\nopagebreak[0]
+
+32 Bit Floating Point Implementation
+
+\begin{XtoCtabular}{Outports Data Type}
+u & float32\tabularnewline
+\hline
+\end{XtoCtabular}
+
+\ifdefined \AddTestReports
+\InputIfFileExists{\XcHomePath/Library/Audio/Doc/Test-Results/Test_RectangleWave_Float32.tex}{}{}
+\fi
+\XtoCImplementation{Float64}
+\nopagebreak[0]
+
+64 Bit Floating Point Implementation
+
+\begin{XtoCtabular}{Outports Data Type}
+u & float64\tabularnewline
+\hline
+\end{XtoCtabular}
+
+\ifdefined \AddTestReports
+\InputIfFileExists{\XcHomePath/Library/Audio/Doc/Test-Results/Test_RectangleWave_Float64.tex}{}{}
+\fi
